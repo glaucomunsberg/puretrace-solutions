@@ -1,0 +1,4 @@
+generate_test_record_scheduler:
+  cron: "*/1 * * * *"
+  class: "GenerateTestRecordJob"
+  queue: insert_test_data

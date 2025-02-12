@@ -1,0 +1,2 @@
+module AnalytisHelper
+end
