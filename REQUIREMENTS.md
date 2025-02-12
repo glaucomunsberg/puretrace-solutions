@@ -2,21 +2,21 @@
 
 PureTrace is a fictional company that provides an end-to-end food testing and compliance solution for consumer packaged goods (CPG) brands. In this fictional model, the company operates a laboratory in the United States where brands send product samples for testing to detect heavy metals and other contaminants, ensuring compliance with food safety regulations. Test results are stored in a database, and PureTrace provides visualization tools to help customers better understand their data.
 
-The following problem is a simulation based on the fictional PureTrace model and represents a simplified version of one of the dashboard within the company’s application.
+The following problem is a simulation based on the fictional PureTrace model and represents a simplified version of the dashboard within the company’s application.
 
 ## Assignment Objective
 
-The purpose of this assignment is to assess your full-stack development skills in the context of Ruby on Rails.
+The purpose of this assignment is to show development skills in the context of Ruby on Rails and React.
 
   -	No external resources are off-limits for this assignment.
 
-  -	Your solution will be evaluated based on best practices and code readability.
+  -	The solution provide best practices and code readability.
 
-  -	The goal is to complete the assignment within an afternoon.
+  - The solution should be production-ready.
 
 ## Requirements
 
-1.	Create a new Rails project connected to a relational database management system (RDBMS) of your choice.
+1.	A Rails project connected to a relational database PostgreSQL.
 
     The database should be hosted within a Docker container, while the Rails server can run locally.
 
@@ -51,7 +51,7 @@ The purpose of this assignment is to assess your full-stack development skills i
     end
     ```
 
-5.	Create an “Analytics” page.
+5.	Create an “Analytics” React with Typescript.
 
     The primary element on this page should be a scatter plot visualizing the test results for heavy metals.
     
@@ -65,14 +65,12 @@ The purpose of this assignment is to assess your full-stack development skills i
 
     The multi-select should auto-submit when changed.
 
-    The page may be styled with any CSS framework of your choice.
-
-6.	Write at least one automated test covering the chart functionality.
+6.	Write at least one automated test covering the chart functionality with RSpec.
 
 ## Data Model
 
 > [!NOTE]
-> The following column definitions assume the use of PostgreSQL but can be adapted for another RDBMS if needed.
+> The following column definitions assume the use of PostgreSQL.
 
 ```
 Product {
@@ -91,20 +89,6 @@ Test {
 }
 
 ```
-
-## Delivery
-In README.md file at the root of the repository with the following sections:
-
-1. Introduction
-2. Running the project
-3. Follow-up Questions
-
-## Follow-Up Questions
-
-These questions are meant to initiate a discussion about your solution and methodology. Please include your responses in the README.md file at the root of the repository.
-
-1.	What hosting service would you choose for this application and why?
-2.	If the volume of generated tests increases significantly, what strategies would you consider to maintain good page load performance?
 
 ## Important Notice
 
